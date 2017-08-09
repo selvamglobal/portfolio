@@ -1,0 +1,48 @@
+.black-row {
+    background-color: #000;
+}
+
+.black-row.header {
+    background: url('http://rameshselvam.com/images/ramesh.jpg') center;
+    background-size: cover;
+}
+
+.black-row.header>div {
+    background-color: rgba(0, 0, 0, 0.80);
+}
+
+.gray-row {
+    background-color: #f4f4f4;
+}
+
+.padding-20 {
+    padding: 40px;
+}
+
+.thumbnail {
+    max-width: 100%;
+    margin: 5px;
+    padding: 5px;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 3px 1px 1px 3px #ccc;
+}
+
+.thumbnail img {
+    max-width: 100%;
+}
+
+.list-inline {
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+
+.list-inline li {
+    display: inline-block;
+    padding: 15px 15px 15px 0;
+}
+
+.list-inline li a i {
+    font-size: 2em;
+}
